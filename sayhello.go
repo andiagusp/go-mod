@@ -1,8 +1,10 @@
 package sayhello
 
+import "strconv"
+
 // SayHello is exported
-func SayHello(name string) string {
-	return "Hello " + name
+func SayHello(name string, year int) string {
+	return "Hello my name " + name + " age " + strconv.Itoa(year)
 }
 
 // SayHay is exported
