@@ -16,3 +16,7 @@ func SayHay(name string) string {
 func HelloGo() {
 	fmt.Println("Hello Go")
 }
+
+func HelloGoV2() {
+	fmt.Println("Hello Go V2")
+}
